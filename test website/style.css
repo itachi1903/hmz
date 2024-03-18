@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+header {
+    width: 90%;
+    padding: 10px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.menu-btn {
+    width: 50px;
+}
+hr {
+    background-color: black;
+    height: 5px;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+}
+.page1 {
+    width: 90%;
+    min-height: 90vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.page1-part {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.page1-part:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.p1 > h1 {
+    font-size: 3rem;
+}
+.p1 > h2 {
+    font-size: 20px;
+}
+.page1-a {
+    background-color: black;
+    width: fit-content;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 50px;
+    font-size: 20px;
+    outline: 2px solid black;
+    transition: all 500ms ease-in-out;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.page1-a:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+.page1-part:last-child {
+    background-image: url(images/manandwoman.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.page2 {
+    width: 90%;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+}
+.page2-part {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3eb6ba;
+}
+.page2-part:nth-of-type(even) {
+    background-color: #38d3d8;
+}
+.page2-part > h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.page2-part > h2 {
+    font-size: 1rem;
+    width: 80%;
+}
+.page3 {
+    width: 90%;
+    margin: auto;
+    min-height: 70vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.page3 > h1  {
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.page3 > h2 {
+    width: 70%;
+    font-size: 1rem;
+    word-break: break-all;
+}
+.page1-a2 {
+    border-radius: 0;
+}
+.page4 {
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.page4-part {
+    width: 100%;
+    height: 100%;
+}
+.page4-part:first-child {
+    back
+}
